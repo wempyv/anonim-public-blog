@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+nav {
+    padding: 1rem 0 !important;
+}
+
+.font-header {
+    font-size: 50px;
+}
+
+.search {
+    display: flex;
+}
+
+input[type=text] {
+    font-family: FontAwesome;
+    border-radius: 8px;
+    border: 2px solid #F6EFEF;
+}
+
+input[type=text]::placeholder {
+    color: #DCCBCB;
+    font-weight: 300;
+}
+
+.light-font {
+    font-weight: 300;
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+.router-link-active {
+    font-weight: 500;
+}
+
+.btn {
+    border-radius: 8px;
+}
+
+.header-font {
+    font-size: 27px;
+    padding: 0;
+    margin: 0;
+}
+
+.caption-header {
+    font-size: 18px;
+    color: #9D9797;
+}
+
+/* Content Menu */
+
+
+.ava {
+    color: blue;
+}
+
+.username {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.title {
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+.post-caption {
+    color: #AE9F9F;
+    font-size: 16px;
+    max-width: 100%;
+    overflow-wrap: break-word;
+}
+
+
+/* about */
+.hero-caption {
+    font-weight: 200;
+    font-size: 23px;
+    line-height: 2rem;
+    color: #B29393;
+}
+
+/* Write HTML */
+textarea::placeholder {
+    color: #DCCBCB !important;
+    font-weight: 300;
+}
+
+textarea {
+    border: 2px solid #F6EFEF !important;
+    border-radius: 8px !important;
+}
+
+.btn-outline-dark {
+    border: 2px solid #DDCDCD !important;
+    color: black !important;
+}
+
+.btn-outline-dark:hover {
+    background-color: white !important;
+}
+
+.btn-dark {
+    background-color: black !important;
+}
+
+/* Footer */
+.site-footer {
+    margin-top: 13vh;
+    background-color: #000000;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+}
+
+.site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5
+}
+
+.site-footer hr.small {
+    margin: 20px 0
+}
+
+.site-footer h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px
+}
+
+.site-footer a {
+    color: #737373;
+}
+
+.site-footer a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links {
+    padding-left: 0;
+    list-style: none
+}
+
+.footer-links li {
+    display: block
+}
+
+.footer-links a {
+    color: #737373
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links.inline li {
+    display: inline-block
+}
+
+.site-footer .social-icons {
+    text-align: right
+}
+
+.site-footer .social-icons a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 6px;
+    margin-right: 0;
+    border-radius: 100%;
+    background-color: #33353d
+}
+
+.copyright-text {
+    margin: 0
+}
+
+@media (max-width:991px) {
+    .site-footer [class^=col-] {
+        margin-bottom: 30px
+    }
+}
+
+@media (max-width:767px) {
+    .site-footer {
+        padding-bottom: 0
+    }
+
+    .site-footer .copyright-text,
+    .site-footer .social-icons {
+        text-align: center
+    }
+}
+
+.social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-bottom: 4px
+}
+
+.social-icons li.title {
+    margin-right: 15px;
+    text-transform: uppercase;
+    color: #96a2b2;
+    font-weight: 700;
+    font-size: 13px
+}
+
+.social-icons a {
+    background-color: #eceeef;
+    color: #818a91;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear
+}
+
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+    color: #fff;
+    background-color: #29aafe
+}
+
+.social-icons.size-sm a {
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    font-size: 14px
+}
+
+.social-icons a.facebook:hover {
+    background-color: #3b5998
+}
+
+.social-icons a.twitter:hover {
+    background-color: #00aced
+}
+
+.social-icons a.linkedin:hover {
+    background-color: #007bb6
+}
+
+.social-icons a.dribbble:hover {
+    background-color: #ea4c89
+}
+
+@media (max-width:767px) {
+    .social-icons li.title {
+        display: block;
+        margin-right: 0;
+        font-weight: 600
+    }
+}
+
+/* About Developer */
+.ava-developer {
+    border-radius: 50%;
+    margin: 10px;
+    height: 300px;
+    padding: 0;
+}
+
+.name-developer {
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    color: #4e4a4a;
+    font-weight: 500;
+}
+
+.job-developer {
+    font-size: 20px;
+    color: #665858;
+    font-weight: 200;
+}
+
+/* Success Page */
+
+.post-success p {
+    font-size: 20px;
+}
+
+.img-success {
+    height: 300px;
+    margin-bottom: 5vh;
+}
+
+/* single blog */
+.title p {
+    font-size: 20px;
+}
+
+.name-anonim {
+    font-size: 18px;
+    margin: 0;
+}
+
+.ava-profile {
+    margin-top: -4px;
+    margin-left: 5px;
+}
+
+.anonim-date {
+    font-size: 12px;
+    color: #BF9F9F;
+    margin: 0;
+}
+
+.story p {
+    font-size: 18px;
+    color: #594D4D;
+    font-weight: 200;
+}
+
+.title-post a {
+    text-decoration: none ;
+    color: black;
+}
